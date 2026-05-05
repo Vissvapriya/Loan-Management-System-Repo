@@ -1,0 +1,125 @@
+.customer-wrapper{
+  background:#f5f7fb;
+  min-height:100vh;
+}
+
+/* HERO SECTION */
+
+.customer-hero{
+  background: linear-gradient(135deg,#2c7be5,#4aa3ff);
+  padding: 60px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.customer-hero-content h1{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.customer-hero-content p{
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.apply-btn{
+  background: white;
+  color: #2c7be5;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply-btn:hover{
+  background:#f2f2f2;
+}
+
+/* STATS SECTION */
+
+.customer-stats{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.customer-card{
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.customer-card h4{
+  margin-bottom: 10px;
+  color:#555;
+}
+
+.customer-card p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.status{
+  color: orange;
+  font-weight: 600;
+}
+
+/* LOAN APPLICATIONS SECTION */
+
+.customer-applications{
+  margin-top: 40px;
+}
+
+.customer-applications h2{
+  margin-bottom: 20px;
+  color:#333;
+}
+
+/* APPLICATION CARDS */
+
+.application-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:15px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  max-width:400px;
+}
+
+.application-card p{
+  margin:0;
+  font-size:14px;
+}
+
+.application-card strong{
+  color:#444;
+}
+/* LOGOUT BUTTON */
+
+.logout-container{
+  display:flex;
+  justify-content:flex-end;
+  margin-bottom:20px;
+}
+
+.logout-btn{
+  background:#ff4d4d;
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.logout-btn:hover{
+  background:#e60000;
+}

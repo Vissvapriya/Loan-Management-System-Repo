@@ -1,0 +1,84 @@
+.loan-form-page{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:40px;
+  background:#f5f7fb;
+  min-height:100vh;
+}
+
+.loan-form-page h2{
+  margin-bottom:25px;
+}
+
+.loan-form{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  width:700px;
+}
+
+.loan-form input,
+.loan-form select{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.file-upload-section{
+  grid-column:span 2;
+  padding:15px;
+  background:#f8f9fa;
+  border-radius:8px;
+  border:2px dashed #ddd;
+}
+
+.file-upload-section label{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.file-upload-section span{
+  font-weight:600;
+  color:#333;
+  font-size:14px;
+}
+
+.file-upload-section input[type="file"]{
+  padding:8px;
+  background:white;
+  cursor:pointer;
+}
+
+.file-upload-section small{
+  color:green;
+  font-size:12px;
+}
+
+.submit-btn{
+  grid-column:span 2;
+  padding:12px;
+  background:#2a6df4;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+  font-weight:600;
+}
+
+.submit-btn:hover{
+  background:#1d52c4;
+}
+
+.submit-btn:disabled{
+  background:#ccc;
+  cursor:not-allowed;
+}

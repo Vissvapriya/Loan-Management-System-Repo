@@ -1,0 +1,129 @@
+.loan-requests-wrapper {
+  padding: 20px;
+}
+
+/* STATS */
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-weight: 600;
+}
+
+.green { color: green; }
+.red { color: red; }
+.orange { color: orange; }
+.blue { color: #1e81b0; }
+
+/* CONTROLS */
+.controls {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.controls select {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* TABLE */
+.table-container {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #0a3d62;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+/* STATUS */
+.status {
+  font-weight: bold;
+}
+
+.status.Sanctioned {
+  color: green;
+}
+
+.status.Cancelled {
+  color: red;
+}
+
+.status.UnderVerification {
+  color: orange;
+}
+
+/* BUTTON */
+.doc-btn {
+  background: #1e81b0;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.approve-btn {
+  background: #0f9d58;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.reject-btn {
+  background: #d93025;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+}
